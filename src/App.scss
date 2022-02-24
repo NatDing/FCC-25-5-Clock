@@ -1,0 +1,87 @@
+body {
+  color: purple;
+  background-color: pink;
+  font-size: 30px;
+  text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.break-session-length {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  padding-top: 3px;
+  padding-left: 7px;
+  font-size: 30px;
+  border-radius: 4px;
+}
+
+button:hover {
+  color:#000;
+  background-color:rgb(255, 255, 255)
+}
+
+div > button {
+  color: white;
+  background-color: rgb(105, 105, 105);
+}
+
+.reset{
+  height: 60px;
+  width: 80px;
+  color: blue;
+  background-color: turquoise;
+  padding: 8px;
+}
+
+.reset:hover {
+  color: green;
+  background-color: rgb(55, 255, 235);
+}
+
+div button:nth-child(2) {
+  height: 60px;
+  width: 80px;
+  color: green;
+  background-color: lightgreen;
+  padding: 8px;
+  padding-bottom: 12px;
+}
+
+div button:nth-child(2):hover {
+  color: blue;
+  background-color: rgb(55, 255, 55);
+}
+
+strong {
+  margin: 0 8px;
+}
+
+.timer-wrapper > button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.twistie {
+  color: darkorchid;
+  text-align: right;
+  font-size: small;
+  margin-top: -20px;
+  margin-right: 10px;
+}
