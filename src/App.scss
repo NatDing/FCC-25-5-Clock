@@ -77,12 +77,19 @@ strong {
   margin-left: 5px;
   margin-right: 5px;
 }
-
-.twistie {
-  position: absolute;
-  color: darkorchid;
-  text-align: right;
-  font-size: small;
-  margin-top: 950px;
-  margin-right: 1810px;
+.container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  border-bottom: 1px solid grey;
+  .twistie {
+    position: relative;
+    color: darkorchid;
+    text-align: right;
+    font-size: small;
+    margin-top: 98vh;
+    margin-left: 181vh;
+    white-space: nowrap;
+  }
 }
