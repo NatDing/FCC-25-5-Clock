@@ -61,7 +61,7 @@ const App = () => {
     if(!timeLeft && timingType === "BREAK"){
       setTimeLeft(sessionLength * 60)
       setTimingtype("SESSION")
-      audio.pause()
+      audio.play()
       audio.currentTime = 0;
     }
   }
