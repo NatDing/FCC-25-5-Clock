@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FCC-25-5-Clock/static/css/main.703b2bff.css",
-    "main.js": "/FCC-25-5-Clock/static/js/main.b0d90ded.js",
+    "main.js": "/FCC-25-5-Clock/static/js/main.4c9438f7.js",
     "static/js/787.30cd3fe9.chunk.js": "/FCC-25-5-Clock/static/js/787.30cd3fe9.chunk.js",
     "index.html": "/FCC-25-5-Clock/index.html",
     "main.703b2bff.css.map": "/FCC-25-5-Clock/static/css/main.703b2bff.css.map",
-    "main.b0d90ded.js.map": "/FCC-25-5-Clock/static/js/main.b0d90ded.js.map",
+    "main.4c9438f7.js.map": "/FCC-25-5-Clock/static/js/main.4c9438f7.js.map",
     "787.30cd3fe9.chunk.js.map": "/FCC-25-5-Clock/static/js/787.30cd3fe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.703b2bff.css",
-    "static/js/main.b0d90ded.js"
+    "static/js/main.4c9438f7.js"
   ]
 }
