@@ -78,18 +78,14 @@ strong {
   margin-right: 5px;
 }
 .container{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  border-bottom: 1px solid grey;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   .twistie {
     position: relative;
     color: darkorchid;
     text-align: right;
     font-size: small;
-    margin-top: 98vh;
-    margin-left: 181vh;
-    white-space: nowrap;
   }
 }
+
