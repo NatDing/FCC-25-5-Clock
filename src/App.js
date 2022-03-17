@@ -126,8 +126,8 @@ const App = () => {
         <button onClick={handlePlay} id="start_stop">⏵︎⏸︎</button>
         <button className="reset" onClick={handleReset} id="reset">再</button>
       </div>
+      <div className="twistie">Twistie Best Girl</div>
     </div>
-    <div className="twistie">Twistie Best Girl</div>
     <audio
       id="beep" 
       preload="auto"
